@@ -3,8 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="../Assets/all.css">
-		<link rel="stylesheet" href="profile.css"> 
-		
+		<link rel="stylesheet" href="Register.css"> 
 	</head>
 	<body>
 		<div class="container">
@@ -16,32 +15,51 @@
 					<h1 id="judul">LUTUNA<h1><!--header judul-->
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<img src="../Icons/beruang.png" id="bearprofile"><!--icon beruang-->
+			<div class="tengah">
+			<form action="/register.php">
+				<h1 id="reg">Register</h1>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-md-12">
+							<label for="firstname"><b>First Name</b></label></br>
+							<input type="text" name="firstname" id="inp" autofocus required></br></br>
+						</div>
+						<div class="col-md-12">
+							<label for="id"><b>ID</b></label></br>
+							<input type="text" name="ID" id="inp" required></br></br>
+						</div>
+						<div class="col-md-12">
+							<label for="psw"><b>Password</b></label></br>
+							<input type="password" name="psw" id="inp" required></br></br>
+						</div>
+					</div>
+					<div class="col-md-6 kotak">
+						<div class="col-md-12 row">
+							<label for="lastname"><b>lastname</b></label></br>
+							<input type="text" name="lastname" id="inp" required></br></br>
+						</div>	
+						<div class="col-md-12 row">
+							<div class="col-md-6 kotak">
+								<img src="../Icons/beruang.png" id="bear">
+							</div>
+							<div class="col-md-6 kotak">
+								<img src="../Icons/beruang.png" id="bear">
+							</div>
+						</div>
+						<div class="col-md-12 row">
+							
+							<div class="col-md-6 kotak">							
+								<img src="../Icons/beruang.png" id="bear">
+							</div>
+							<div class="col-md-6 kotak">							
+								<img src="../Icons/beruang.png" id="bear">
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-6">
-					<p id="textprofile">
-					Manusia Vulgar</br></br>
-					140810170000</br></br></br>
-					Saya setiap hari minimal mengucapkan satu kata kasar,itu adalah 
-					kesenangan saya,jika satu hari saya tidak berkata kasar maka saya akan sakit
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-					<img src="../Icons/beruang.png" id="bearA"><!--icon beruang-->
-				</div>
-				<div class="col-md-3">
-					<img src="../Icons/beruang.png" id="bearB"><!--icon beruang-->
-				</div>
-				<div class="col-md-3">
-					<img src="../Icons/beruang.png" id="bearC"><!--icon beruang-->
-				</div>
-				<div class="col-md-3">
-					<img src="../Icons/beruang.png" id="bearD"><!--icon beruang-->
-				</div>
+					<button type="submit" id="btnreg">Register</button>
+					<p>Already have an account? <a href="#">Sign in</a>.</p>
+			</form>
 			</div>
 			<div class="footer row">
 					<div class="col-md-3">

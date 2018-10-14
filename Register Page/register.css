@@ -1,0 +1,22 @@
+.tengah{
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:5%;
+	margin-bottom:0;
+}
+.kotak{
+	border: 1px solid;
+}
+#reg{
+	text-align:center;
+}
+#inp{
+	width:100%;
+	height:100%;
+}
+label{
+	font-size:24px;	
+}
+#btnreg{
+	margin-left:15px;
+}
