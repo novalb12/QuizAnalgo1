@@ -1,9 +1,9 @@
 .header{
 	width :100%;
-	box-sizing : border-box;
 	font-size:25;
 	margin-top:-5px;
 	background-color:#E2E2ED;
+	
 }
 #bear{
 	width:100%;
@@ -19,6 +19,6 @@ body{
 .footer{
     background:#333;
     color:#fff;	
-	min-height:100%;
+	min-width:100%;
     width:100%;
 }
