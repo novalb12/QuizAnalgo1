@@ -2,7 +2,8 @@
 	width :100%;
 	font-size:25;
 	margin-top:-5px;
-	background-color:#E2E2ED;
+	background-color:#C3C3C3;
+	padding:0;
 	
 }
 #bear{
@@ -10,15 +11,38 @@
 	height:100%;	
 }
 #judul{
+    font-family:verdana;	
     text-align:center;
-    color:red;
+    color:white;
 }
 body{
-	background-color:#043C34;
+	background-color:#042C34;
 }
 .footer{
-    background:#333;
-    color:#fff;	
+    background:#C3C3C3;
+    color:black;	
 	min-width:100%;
     width:100%;
+
+}
+h1 { 
+    font-family:verdana;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h1 { 
+    font-family: Myriad Pro;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
