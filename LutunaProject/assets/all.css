@@ -15,7 +15,11 @@
 }
 
 #bear{
-	width:20%;	
+	width:10%;	
+}
+
+#bearfooter{
+	width:100%;	
 }
 
 #judul{
@@ -23,6 +27,7 @@
     text-align:center;
     color:white;
 }
+
 body{
 	background-color:#042C34;
 }
@@ -35,7 +40,7 @@ body{
 }    
 h1 { 
     color : white;
-    font-family:verdana;
+    font-family: verdana;
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -43,15 +48,11 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+}
+#menu {
+	color: black !important;
+	font-family : verdana;
 }
 
-h1 { 
-    font-family: Myriad Pro;
-    display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
+
+

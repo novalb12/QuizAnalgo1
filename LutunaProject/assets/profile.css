@@ -6,25 +6,11 @@
 	margin:0;
 }
 
-#bearA{
+#bearprofil{
 	width:70%;
-	height:70%;
-}
-#bearB{
-	width:30%;
-	height:30%;
-}
-#bearC{
-	width:50%;
-	height:50%;
-}
-#bearD{
-	width:90%;
-	height:90%;
-	margin:50%;
-}
 
 #textprofile{
+	color : white;
 	font-size:23px;
 	overflow:auto;
 }

@@ -6,15 +6,18 @@
         <link rel="stylesheet" href="<?php echo base_url('assets/login.css') ?>"/> 
     </head>
     <body>
-	<div class="container">	
-            <div class="row header">
-		<div class="col-md-2">
-                    <img src="../Icons/beruang.png" id="bear"><!--icon beruang-->
-		</div>
-		<div class="col-md-8">
-                    <h1 id="judul">LUTUNA</h1><!--header judul-->
-		</div>
+	<nav class="navbar navbar-inverse navbar-fixed-top header">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="http://localhost/LutunaProject/">
+                        <img src="<?php echo base_url('assets\Icons\beruang.png'); ?>" id="bear">
+                    </a><!--icon beruang-->      
+                </div>
+                <div class="nav-centered">
+                    <h1>LUTUNA</h1>
+                </div>
             </div>
+        </nav>
             <div class="centermid">
 		<form>
                     <center>
@@ -27,6 +30,48 @@
                     </center>
 		</form>
             </div>
-        </div>		
+        <div class="footer ">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="col-md-12">
+                        <h1>Link Page</h1>
+                        <a href="http://localhost/LutunaProject/index.php/profile">Profil</a><br>
+                        <a href="http://localhost/LutunaProject/index.php/register">Register</a><br>
+                        <a href="http://localhost/LutunaProject/index.php/login">Login</a>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-md-12">
+                        <h1>Menu</h1>
+                        <a>ya</a>
+                    </div>
+                </div>
+                <div class="col-md-3">    
+                    <div class="col-md-12">
+                        <h1 id="menu">Menu</h1>
+                        <a>ya</a>
+                    </div>		
+                </div>
+                    <div class="col-md-3">
+                        <div class="col-md-12 row">
+                            <div class="col-md-6 ">
+                                <img src="<?php echo base_url('assets\Icons\beruang ck.png'); ?>" id="bearfooter">
+                            </div>
+                            <div class="col-md-6 ">
+                                <img src="<?php echo base_url('assets\Icons\beruang cw3.png'); ?>" id="bearfooter">
+                            </div>
+                        </div>
+                        <div class="col-md-12 row">						
+                            <div class="col-md-6 ">							
+                                <img src="<?php echo base_url('assets\Icons\beruang mr2.png'); ?>" id="bearfooter">
+                            </div>
+                            <div class="col-md-6 ">							
+                                <img src="<?php echo base_url('assets\Icons\beruang mw.png'); ?>" id="bearfooter">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+	</div>		
     </body>
 </html>
