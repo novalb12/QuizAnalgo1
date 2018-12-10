@@ -15,7 +15,7 @@
 }
 
 #bear{
-	width:10%;	
+	width:15%;	
 }
 
 #bearfooter{
@@ -38,21 +38,12 @@ body{
     width:100%;
     bottom : 0;	
 }    
-h1 { 
-    color : white;
-    font-family: verdana;
-    display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-#menu {
+
+#menu_bawah {
 	color: black !important;
 	font-family : verdana;
 }
+
 
 
 
