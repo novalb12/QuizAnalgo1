@@ -1,8 +1,11 @@
 <?php 
  
 class M_register extends CI_Model{	
-	function cek_login($table,$where){		
-		return $this->db->get_where($table,$where);
-	}	
+
+	function inputdata($data){
+		$this->db->insert('tb_user', $data);
+		
+	}
+	
 }
 ?>

@@ -10,7 +10,9 @@
     <body>
         <div class="row col-md-12">
 			<div class="row col-md-6">
+				<?php foreach ($id_vote as $data){?>
 				<img src="<?php echo base_url($data['img']); ?>">
+				<?php } ?>
 			</div>
 			<div class="row col-md-6">
 				<div class="row col-md-12">

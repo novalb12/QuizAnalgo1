@@ -41,9 +41,11 @@
             <div class="row col-md-12">	<!--isi votingan yang sedang Hot-->
                 <?php foreach ($id_vote as $data){?>               
                 <div class="col-md-2">
-					<?php echo anchor('home/vote'.$data->id_vote,'Test')?>
+					<?php echo $this->session->userdata('img');?>
+					<?php echo anchor('home/vote?id_vote='.$data['id_vote'],$data['judul'])?>
                     <div class="crop">		
-                        <a href="http://localhost/LutunaProject/index.php/vote">
+					<!--<?php echo anchor('home/vote?id_vote='.$data['id_vote'])?>-->
+                        <a href="<?php echo anchor('home/vote?id_vote='.$data['id_vote']);	 ?>">
                             <img style="height:auto; margin-left: auto; margin-right: auto" src="<?php echo base_url($data['img']); ?>">
                         </a>
                         <br>

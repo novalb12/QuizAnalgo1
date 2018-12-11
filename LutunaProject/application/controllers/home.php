@@ -5,6 +5,8 @@ class Home extends CI_Controller{
         $id_vote = $this->input->get('id_vote');
         $this->load->model('m_vote');
         $data['id_vote'] = $this->m_vote->get($id_vote);
+		$this->load->library('session');
+		$this->session->set_userdata($data);
         $this->load->view('v_homepage',$data);  
     }
     public function login(){
@@ -23,7 +25,7 @@ class Home extends CI_Controller{
         $id_vote = $this->input->get('id_vote');
         $this->load->model('m_vote');
         $data['id_vote'] = $this->m_vote->get($id_vote);
-        $this->load->view('v_vote');  
+        $this->load->view('v_vote',$data);  
     }
 }
 ?>
