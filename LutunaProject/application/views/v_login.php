@@ -25,7 +25,7 @@
                         <label for="username">ID</label><br>
 			<input type="text" name="username" id="ID" required><br><br>
                         <label for="password">Password</label><br>
-			<input type="text" name="password" id="psw" required><br><br>
+			<input type="password" name="password" id="psw" required><br><br>
 			<input type="submit" value="login">
                     </center>
 		</form>

@@ -20,7 +20,7 @@
             </div>
             </nav>
 			<div class="tengah">
-			<form action="/register.php">
+			<form action="<?php echo base_url('index.php/register/data'); ?>" method="post">
 				<h1 id="reg">Register</h1>
 				<center>
 				<div class="row">
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<center>
-					<button type="submit" id="btnreg">Register</button>
+					<input type="submit" name="register" value="Register">
 					<p>Already have an account? <a href="#">Sign in</a>.</p>
 			</form>
 			</div>
