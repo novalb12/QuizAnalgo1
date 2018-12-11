@@ -1,0 +1,10 @@
+Web Voting Interaktif
+
+--Penjelasan--
+Web ini mempunyai fitur pengambilan voting (typeform) dengan cara yang lebih interaktif dan lebih menyenangkan
+
+--Fungsi--
+Fungsi dari web ini untuk mengambil data statistik untuk perihal apapun 
+
+--Target penggun--
+Untuk semua orang yang ingin membantu dan membutuhkan bantuan dalam hal mencari data
