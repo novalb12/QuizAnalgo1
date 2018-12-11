@@ -6,7 +6,7 @@
 	font size: 40px;
 	font-family:verdana;
 	height: 15em;
-    	position: relative; 
+    position: relative; 
 }
 
 
@@ -57,7 +57,7 @@ LW{
 }
 
 .crop img {
-    width: 200px; /* You can set the dimensions to whatever you want */
+    width: 200px; 
     height: 1500px;
     object-fit: fill;
 }

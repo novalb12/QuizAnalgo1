@@ -4,26 +4,26 @@ class Home extends CI_Controller{
     public function index(){
         $id_vote = $this->input->get('id_vote');
         $this->load->model('m_vote');
-        $data['response'] = $this->m_vote->get($id_vote);
-        $this->load->view('homepage',$data);  
+        $data['id_vote'] = $this->m_vote->get($id_vote);
+        $this->load->view('v_homepage',$data);  
     }
     public function login(){
         $id_user = $this->input->get('id_user');
         $this->load->model('m_user');
-        $data['response'] = $this->m_user->get($id_user);
-        $this->load->view('login',$data);  
+        $data['id_user'] = $this->m_user->get($id_user);
+        $this->load->view('v_login',$data);  
     }
     public function profile(){
-        $this->load->view('profile');  
+        $this->load->view('v_profile');  
     }
     public function register(){
-        $this->load->view('register');  
+        $this->load->view('v_register');  
     }
     public function vote(){
         $id_vote = $this->input->get('id_vote');
         $this->load->model('m_vote');
-        $data['response'] = $this->m_vote->get($id_vote);
-        $this->load->view('vote');  
+        $data['id_vote'] = $this->m_vote->get($id_vote);
+        $this->load->view('v_vote');  
     }
 }
 ?>
