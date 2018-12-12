@@ -7,6 +7,6 @@
     "\\application\\views",
     "\\assets"
   ],
-  "SelectedNode": "\\application\\views\\v_vote.php",
+  "SelectedNode": "\\application\\controllers\\login.php",
   "PreviewInSolutionExplorer": false
 }

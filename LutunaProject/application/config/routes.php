@@ -56,3 +56,5 @@ $route['login'] = 'home/login';
 $route['profile'] = 'home/profile';
 $route['register'] = 'home/register';
 $route['vote'] = 'home/vote';
+$route['header'] = 'home/header';
+

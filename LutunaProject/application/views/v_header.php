@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top header">
@@ -12,6 +11,6 @@
                     <img src="<?php echo base_url('assets\Icons\LUTUNA.png'); ?>">
                 </div>
             </div>
-        </nav>
+		</nav>
 	</body>
 </html>
