@@ -4,7 +4,7 @@ using namespace std;
 
 void merge_sort(int [],int ,int );
 void merge(int [],int,int ,int );
-
+//ssa
 int main()
 {
 	clock_t t1,t2;
